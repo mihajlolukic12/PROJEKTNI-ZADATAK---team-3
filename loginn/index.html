@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+<head>
+	
+	<title>Team 3</title>
+	<link rel="stylesheet" type="text/css" href="style1.css">
+	<script type="text/javascript" src = "java.js"></script>
+	<script src = "osnovna.js"></script>
+</head>
+<body onload="randomizer()">
+	<div id = "particles-js" >
+		<div id = "divallinone" style="display: none;">
+			<p style="width: 100%;" id = "logg">LOGIN</p>
+			<p id="textIme" >
+				<br/>
+				<input placeholder = "Ime tima" type="text" id="imeText"> 
+				<br> 
+			   	<br>
+			   	<input placeholder = "UUID" type="Password" id="prezimeText">
+			</p>
+
+			<button onclick="proveraLogin()" id = "loggbutt">Uloguj se</button>
+			<a id = "naloglink">Nemate tim? Registrujte ga!</a>
+		</div>
+		
+		<div id="captcha">
+			<textarea readonly style="resize: none;"  id="brojevi"></textarea> <br/><br/><br/> 
+			Unesite brojeve koji se nalaze iznad: <br/> <br/>
+			<input type="text" id="ukucaniBrojevi"> <br/> <br/>
+			<button id = "proveridugme1" onclick="provera()">Proveri</button> <br/> <br/>
+		</div>
+	</div>
+		<script type="text/javascript" src="particles.js"></script>
+		<script type="text/javascript" src="app.js"></script>
+</body>
+</html>

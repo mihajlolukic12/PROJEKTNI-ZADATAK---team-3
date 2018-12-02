@@ -1,0 +1,217 @@
+
+<!DOCTYPE html>
+<html>
+	<head>
+		<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+		<script src="script.js"></script>
+		<script src="izmena.js"></script>
+		
+		<link rel="stylesheet" href="style.css">		
+		<meta charset="UTF-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<meta http-equiv="X-UA-Compatible" content="ie=edge">
+		
+		<style>
+			*{
+				overflow: hidden;
+			}
+			.form{
+				top: 90px;
+			}
+			.form1{
+				position: absolute;
+				width: 17%;
+				margin: 5%;
+			}
+			.form2{
+				position: absolute;
+				left: 23%;
+				width: 17%;
+				margin: 5%;
+			}
+			.form3{
+				position: absolute;
+				left: 46%;
+				width: 17%;
+				margin: 5%;
+			}
+			.form4{
+				position: absolute;
+				left: 69%;
+				width: 17%;
+				margin: 5%;
+			}
+			.form5{
+				position: absolute;
+				left: 37.1%;
+				width: 15%;
+				margin: 5%;
+				top: 80%;
+			}
+			.h2{
+				position: absolute;
+				left: 10%;
+				right: 10%;
+				width: 80%;
+				top: 75%;
+			}
+			#button1, #button2, #button3, #button4{
+				width: 200px;
+				height: 25px;
+				border-radius: 50px;
+			}
+			#button5{
+				border-color: rgb(85, 5, 5);
+				background-color: rgb(121, 10, 10);
+				color:white;
+				width: 200px;
+				height: 35px;
+				border-radius: 50px;
+			}
+			#button6{
+				border-color: rgb(162, 0, 255);
+				background-color: rgb(196, 61, 223);
+				color:white;
+				width: 400px;
+				height: 50px;
+				border-radius: 50px;
+				margin-right: 0%;
+				margin-left: 92%;
+				margin-top: 20px;
+				top: 30%;
+			}
+			#batn6{
+				background-color:rgb(218, 69, 248);
+				color: aliceblue;
+				width: 400px;
+				
+				margin: 25px;
+				border: 0;
+			}
+		</style>
+		<script>
+		function prompt(){
+			var yeet=confirm("Da li ste sigurni da zelite da izbirsete vas tim sa liste?");
+			if (yeet==true)
+			{
+				document.write ("You deleted your team!");
+				
+			}
+			else
+			{
+				
+				
+			}
+
+		}
+		</script>
+		<title>Team 3</title>
+	</head>
+	<body  id = "particles-js">
+		
+
+		<div style="display:flex;" id="particles-js">
+            <div id = "name_details">
+                <p id = "naziv_tima" align="center">Ime: </p>
+                <p id = "opis_tima" align="center" >Opis: </p>
+            </div>
+			<br>
+			
+			<form class="form form1" align = "center" style="float:left;">
+				<h2>Član 1</h2>
+				<hr>
+				<p>-Ime- </p>
+				<p id = "ime0">/</p>
+				<p>-Prezime- </p>
+                <p id = "prezime0">/</p>
+				<p>-Imejl- </p>
+                <p id = "imejl0">/</p>
+				<p>-Telefon- </p>
+                <p id = "telefon0">/</p>
+				<p>-Grad- </p>
+                <p id = "godina0">/</p>
+				<p>-Skola- </p>
+				<p id = "skola0">/</p>
+				<hr>
+				 <button id="button1">Izmeni</button>
+				 <hr>
+			</form>
+			
+			<form class="form form2" align = "center" style="float:middle;">
+				<h2>Član 2</h2>
+				<hr>
+				<p>-Ime- </p>
+				<p id = "ime1">/</p>
+				<p>-Prezime- </p>
+                <p id = "prezime1">/</p>
+				<p>-Imejl- </p>
+				<p id = "imejl1">/</p>
+				<p>-Telefon- </p>
+                <p id = "telefon1">/</p>
+				<p>-Grad- </p>
+                <p id = "godina1">/</p>
+				<p>-Skola- </p>
+				<p id = "skola1">/</p>
+				<hr>
+				<button id="button2">Izmeni</button>
+				<hr>
+			</form>
+			<br>
+			<form class="form form3" align = "center" style="float:middle;">
+				<h2>Član 3</h2>
+				<hr>
+				<p>-Ime- </p>
+				<p id = "ime2">/</p>
+				<p>-Prezime- </p>
+                <p id = "prezime2">/</p>
+				<p>-Imejl- </p>
+                <p id = "imejl2">/</p>
+				<p>-Telefon- </p>
+                <p id = "telefon2">/</p>
+				<p>-Grad- </p>
+                <p id = "godina2">/</p>
+				<p>-Skola- </p>
+				<p id = "skola2">/</p>
+				<hr>
+				<button id="button3">Izmeni</button>
+				<hr>
+			</form>
+			<br>
+			<form class="form form4" align = "center" style="float:right;">
+				<h2>Član 4</h2>
+				<hr>
+				<p>-Ime- </p>
+				<p id = "ime3">/</p>
+				<p>-Prezime- </p>
+                <p id = "prezime3">/</p>
+				<p>-Imejl- </p>
+                <p id = "imejl3">/</p>
+				<p>-Telefon- </p>
+                <p id = "telefon3">/</p>
+				<p>-Grad- </p>
+                <p id = "godina3">/</p>
+				<p>-Skola- </p>
+				<p id = "skola3">/</p>
+				<hr>
+				<button id="button4">Izmeni</button>
+				<hr>
+				
+			</form >
+			<br>
+
+			<form class="form form5" align="center" style="float:middle;">
+				<hr>
+				<button id="button5" onclick="prompt()">Obri&scaron;i svoj tim </button>
+
+			</form>
+			<form id="button6">
+			<a type="button" id="batn6" href="listatimova/listaTimova.html">Lista svih timova!</a>
+			</form>
+			
+			
+		</div>
+		
+		<script type="text/javascript" src="particles.js"></script>
+		<script type="text/javascript" src="app.js"></script>
+	</body>
+</html>

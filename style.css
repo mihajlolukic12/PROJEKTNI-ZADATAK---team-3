@@ -1,0 +1,47 @@
+body
+{
+	margin: 0;
+	padding: 0;
+	height: 100vh;
+	color: #e3d4e3;
+	font-family: "Lucida Console", Monaco, monospace;
+}
+#particles-js
+{
+	height: auto;
+	background: #4b2f47;
+}
+
+#logindetails{
+	position: absolute;
+	top: 20px;
+	left: 40%;
+	right: 40%;
+}
+#name_details{
+	position: absolute;
+	top: 5%;
+	left: 25%;
+	right: 25%;
+}
+
+input{
+	/*background: #b3b3ff;aa91aa  c3abc3 a08ca0 978797*/
+	background: #978797;
+	height: 20px;
+	width: 78%;
+	border: 0px;
+}
+textarea{  
+  display: block;
+  box-sizing: padding-box;
+  overflow: hidden;
+
+  padding: 0.5%;
+  width: 75%;
+  font-size: 90%;
+  margin: 5% auto;
+  border-radius: 1%;
+  box-shadow: 0.5% 0.5% 1% rgba(black, .3);
+  border: 0;
+}

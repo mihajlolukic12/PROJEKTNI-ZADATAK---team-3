@@ -1,0 +1,100 @@
+*{
+	padding: 0;
+	margin: 0;
+	overflow: hidden;
+}
+body
+{
+	margin: 0;
+	padding: 0;
+	height: 100vh;
+	color: #e3d4e3;
+	font-family: "Lucida Console", Monaco, monospace;
+}
+input{
+	/*background: #b3b3ff;aa91aa  c3abc3 a08ca0 978797*/
+	background: #978797;
+	height: 24px;
+	width: 78%;
+	border: 0px;
+}
+::placeholder{
+	text-indent: 10px;
+	color: #404040;
+	opacity: 1;
+	font-style: italic;
+}
+#naloglink{
+	font-size: 13px;
+	position: absolute;
+	left: 42%;
+	top: 62%;
+	color: #1b181b;
+	font-weight: bold;
+}
+#loggbutt{
+	position: absolute;
+	left: 42%;
+	top: 55%;
+	width: 15%;
+	height: 5%;
+	border-radius: 30px;
+	border: 0px;
+	background-color: #666699;
+	color: #dbd6db;
+}
+#logg{
+	position: absolute;
+	left: 37%;
+	top: 34%;
+	font-style: italic;
+	font-size: 30px;
+}
+#prezimeText, #imeText{
+	border-radius: 20px;
+	text-indent: 11px;
+}
+#textIme{
+	top: 40%;
+	position: absolute;
+	left: 37%;
+	width: 35%;
+}
+#captcha{
+	position: absolute;
+	top: 35%;
+	left: 37%;
+	height: auto;
+}
+#brojevi{
+	position: absolute;
+	left: 25%;
+	text-align: center;
+}
+#ukucaniBrojevi{
+	width: 43%;
+	position: absolute;
+	left: 25%;
+	text-align: center;
+	color: black;
+}
+#proveridugme1{
+	position: absolute;
+	left: 35%;
+	border-radius: 20px;
+	border: 0px;
+	width: 90px;
+	height: 20px;
+}
+#particles-js
+{
+	height: 100%;
+	background: #4b2f47;
+}
+#logindetails{
+	position: absolute;
+	top: 20px;
+	left: 40%;
+	right: 40%;
+}
+
